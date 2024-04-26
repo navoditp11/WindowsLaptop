@@ -1,0 +1,40 @@
+package com.gl.model;
+
+public class Gear {
+	private int gearID;
+	private String gearMfgName;
+	private String gearType;
+	public Gear() {
+		super();
+	}
+	public Gear(int gearID, String gearMfgName, String gearType) {
+		super();
+		this.gearID = gearID;
+		this.gearMfgName = gearMfgName;
+		this.gearType = gearType;
+	}
+	public int getGearID() {
+		return gearID;
+	}
+	public void setGearID(int gearID) {
+		this.gearID = gearID;
+	}
+	public String getGearMfgName() {
+		return gearMfgName;
+	}
+	public void setGearMfgName(String gearMfgName) {
+		this.gearMfgName = gearMfgName;
+	}
+	public String getGearType() {
+		return gearType;
+	}
+	public void setGearType(String gearType) {
+		this.gearType = gearType;
+	}
+	@Override
+	public String toString() {
+		return "Gear [gearID=" + gearID + ", gearMfgName=" + gearMfgName + ", gearType=" + gearType + "]";
+	}
+	
+
+}
